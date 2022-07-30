@@ -1,0 +1,15 @@
+{
+    "name": "k7brasil/microphp",
+    "authors": [
+        {
+            "name": "K7",
+            "email": "k7brasil@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "k7brasil\\microphp\\": "."
+        }
+    }
+}
