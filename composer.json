@@ -1,15 +1,23 @@
 {
     "name": "k7brasil/microphp",
-    "authors": [
-        {
-            "name": "K7",
-            "email": "k7brasil@gmail.com"
-        }
-    ],
-    "require": {},
+    "type": "project",
+    "description": "MicroPHP é um micro framework criado pela K7.",
+    "homepage": "https://github.com/k7brasil/MicroPHP",
+    "license": "MIT",
+    "require": {
+        "php": "^7.0 || ^8.0",
+        "ext-curl": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
     "autoload": {
         "psr-4": {
             "k7brasil\\microphp\\": "."
         }
+    },
+    "support": {
+        "forum": "https://github.com/k7brasil/MicroPHP/issues",
+        "source": "https://github.com/k7brasil/MicroPHP"
     }
 }
